@@ -3,19 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Log</title>
+    <title>LogIn</title>
 
     
 </head>
-<body>
-<div style="text-align: center;">
-    <h1 >Login</h1>
-    <input type="text" placeholder="Username">
-    <input type="password" placeholder="Password">
+<style>
+    /* #txtUsername { color: blue;} */
+
+    .redText { color: aqua; background-color: black;
+
+    
+    }
+    button {cursor: pointer;
+    background-color: black; color: aqua; font-weight: bold; border-radius: 25%;
+    }
+
+    #headings {
+        background-color: black; color: aqua;
+    }
+
+
+
+
+</style>
+
+<body >
+<div style="text-align: center; background-color: gray; height: 200px;" >
+    <h1 id="headings"  >Login</h1>
+    <input type="text" class="redText" placeholder="Username">
+
+    <input type="password" class="redText" placeholder="Password">
 
     <div style="margin-top: 1rem;">
-        <button id="buttonLogin">Login</button>
+        <button id="buttonLogin" style="margin-top: 3rem; margin-bottom: 1rem;">Login</button>
     </div>
+
+    
+</div>
+
+<div style="background-color: black; height: 20px;">
 
 </div>
     
